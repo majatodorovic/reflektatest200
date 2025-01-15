@@ -53,7 +53,7 @@ const Footer = () => {
                 <div className="p-4">
                   <div className="flex flex-col gap-1">
                     <Link
-                      href="/onama"
+                      href="/o-nama"
                       className="text-base text-white"
                     >
                       O nama
@@ -191,7 +191,7 @@ const Footer = () => {
             </h1>
             <div className="flex flex-col gap-1">
               <Link
-                href="/onama"
+                href="/o-nama"
                 className="text-base text-white hover:text-[#a3a3a3]"
               >
                 O nama

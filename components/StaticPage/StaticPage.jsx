@@ -12,8 +12,8 @@ const StaticPage = ({ slug }) => {
 
   // Ako je slug 'onama', preusmeri korisnika na '/onama'
   useEffect(() => {
-    if (slug === "onama") {
-      router.push("/onama");
+    if (slug === "o-nama") {
+      router.push("/o-nama");
     }
   }, [slug, router]);
 
@@ -33,6 +33,7 @@ const StaticPage = ({ slug }) => {
   const keyGenerator = (prefix) => {
     return `${prefix}-${Math.random().toString(36)}`;
   };
+
 
   return (
     <div className={`4xl:container mx-auto py-[3rem]`}>
