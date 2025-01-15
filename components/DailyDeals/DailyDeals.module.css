@@ -1,0 +1,37 @@
+.hover {
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 81%,
+    70% 81%,
+    49% 100%,
+    29% 80%,
+    1% 80%
+  );
+}
+
+.border::after {
+  content: '';
+  position: absolute;
+bottom: -12px;
+  left:0;
+  border-radius: 0.5rem;
+  height: 2.5px;
+  background-color:#f15923;
+  width: 90px;
+}
+
+@media (min-width: 1024px) {
+  .item:hover > .more {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+.border::after {
+  content: none;
+  
+}
+}
+.heart {
+  background-color: red;
+}

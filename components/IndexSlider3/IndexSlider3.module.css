@@ -1,0 +1,58 @@
+.banner1 {
+  background-image: url("../../assets/Images/nl1.jpg");
+  height: 537px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner2 {
+  background-image: url("../../assets/Images/nl1.jpg");
+  height: 537px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.paperPlane {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.8rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+@media (min-width: 1024px) {
+  .border::after {
+    content: "";
+    position: absolute;
+    bottom: -25%;
+    left: 35%;
+    border-radius: 2px;
+    border: 3px solid white;
+    background-color: white;
+    width: 110px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .border::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 33%;
+    border: 1px solid #333;
+    background-color: #333;
+    height: 2px;
+    width: 100px;
+  }
+  .banner1,
+  .banner2 {
+    background-image: url("../../assets/Images/nl1.jpg");
+    height: max-content;
+  }
+}

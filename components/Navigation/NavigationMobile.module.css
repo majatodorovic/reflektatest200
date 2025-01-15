@@ -1,0 +1,12 @@
+.open {
+    animation: .5s margin ease;
+}
+
+@keyframes margin {
+    0% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,20 @@
+.icon:hover > .image {
+  visibility: visible;
+}
+.line {
+background-color: #f15923;
+height: 3px;
+width: 10%;
+border-radius: 0.5rem;
+}
+.borderr::after {
+  content: none;
+  
+}
+
+@media (0px <= width <= 786px) {
+  .icon {
+    background: #f0f0f0;
+    height: 100%;
+  }
+}

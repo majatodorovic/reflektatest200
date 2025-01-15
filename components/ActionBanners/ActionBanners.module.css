@@ -1,0 +1,22 @@
+.action-banners-holder {
+    margin: 4rem 0rem;
+    
+}
+.first-baner {
+    display: flex;
+    justify-content: flex-end;
+}
+@media (max-width:991.98px) {
+    .action-banners-holder {
+        margin: 1rem 0rem;
+    }
+    .first-baner, 
+        .scnd-baner {
+            justify-content: center;
+            display: flex;
+        }
+        .first-baner {
+            margin-bottom: 1rem;
+        }
+
+}
