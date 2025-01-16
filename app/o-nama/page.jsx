@@ -56,7 +56,7 @@ const Onama = async () => {
                             <div
                                 key={keyGenerator("html")}
                                 className={`w-[90%] mx-auto prose !max-w-full `}
-                                style={{ marginTop: "-1.5rem" }}  // Koristi manju vrednost bold stila
+                                style={{ marginTop: "-1rem" }}  // Koristi manju vrednost bold stila
                                 dangerouslySetInnerHTML={{ __html: item?.content }}
                             ></div>
                         );
@@ -80,5 +80,6 @@ const Onama = async () => {
     );
 };
 
+export const revalidate = 30;
 
 export default Onama;
